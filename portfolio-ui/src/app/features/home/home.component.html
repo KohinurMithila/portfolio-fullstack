@@ -1,0 +1,112 @@
+<section class="hero" id="home">
+    <h1>Hi, I'm {{ about?.name || 'a Fullstack Developer' }}</h1>
+
+    <div *ngIf="about?.studies?.length > 0; else noStudy" style="margin: 10px 0;">
+        <p *ngFor="let study of about.studies" style="margin: 5px 0;">{{ study }}</p>
+    </div>
+    <ng-template #noStudy>
+        <p>I build scalable web applications</p>
+    </ng-template>
+
+    <div *ngIf="about?.contactDetails" style="margin-top: 10px; color: var(--text-muted);">
+        <p>{{ about.contactDetails }}</p>
+    </div>
+
+    <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+        <a href="#projects" class="btn" style="text-decoration: none;">View Projects</a>
+        <a *ngIf="about?.cvUrl" [href]="about.cvUrl" target="_blank" class="btn cv-btn"
+            style="background: var(--secondary); text-decoration: none;">View CV</a>
+    </div>
+
+    <div *ngIf="about?.imageUrl" style="margin-top: 30px;">
+        <img [src]="about.imageUrl" alt="Profile" class="profile-img"
+            style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary); margin: 0 auto; display: block;">
+    </div>
+</section>
+
+<!-- Single Page Sections -->
+<section id="projects" class="section container">
+    <app-projects></app-projects>
+</section>
+
+<section id="skills" class="section container">
+    <app-skills></app-skills>
+</section>
+
+<section id="contact" class="section container">
+    <app-contact [about]="about"></app-contact>
+</section>
+
+<style>
+    .hero {
+        text-align: center;
+        padding: 100px 20px 60px;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        color: var(--primary);
+        margin-bottom: 20px;
+        background: linear-gradient(135deg, var(--primary), var(--accent));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .btn {
+        background: var(--primary);
+        padding: 12px 24px;
+        border-radius: 12px;
+        color: white;
+        border: none;
+        font-weight: 600;
+        transition: transform 0.3s, box-shadow 0.3s;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(99, 102, 241, 0.4);
+    }
+
+    .glass-card:hover {
+        transform: translateY(-5px);
+        transition: 0.3s ease;
+    }
+
+    .profile-img {
+        animation: float 4s ease-in-out infinite;
+        transition: transform 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    .profile-img:hover {
+        transform: scale(1.05) rotate(5deg);
+        box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+    }
+    @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+    }
+
+    @media(max-width: 768px) {
+        .hero h1 {
+            font-size: 32px;
+        }
+
+        .hero {
+            padding: 60px 16px;
+        }
+    }
+
+    .section {
+        padding-top: 80px;
+        /* Offset for fixed nav if any */
+        padding-bottom: 40px;
+    }
+</style>

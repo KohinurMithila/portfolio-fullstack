@@ -1,0 +1,40 @@
+<h2 class="admin-title">Manage Skills</h2>
+
+<form class="admin-form" (ngSubmit)="submit()">
+    <div style="display: flex; gap: 16px;">
+        <div style="flex: 2;">
+            <label>Skill Name</label>
+            <input [(ngModel)]="form.name" name="name" placeholder="E.g. Angular, C#" required>
+        </div>
+        <div style="flex: 1;">
+            <label>Proficiency (%)</label>
+            <input [(ngModel)]="form.level" name="level" type="number" placeholder="1-100">
+        </div>
+    </div>
+    
+    <div>
+        <label>Icon URL (Optional)</label>
+        <input [(ngModel)]="form.icon" name="icon" placeholder="https://example.com/icon.svg">
+    </div>
+
+    <button class="btn-primary" type="submit" style="align-self: flex-start; margin-top: 8px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+        Save Skill
+    </button>
+</form>
+
+<div class="admin-list mt-4">
+    <div class="admin-card" *ngFor="let s of skills">
+        <h3>{{s.name}}</h3>
+        <p>Proficiency: <strong style="color: var(--primary);">{{s.level}}%</strong></p>
+        
+        <div style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 4px; margin-bottom: 16px; overflow: hidden;">
+            <div style="height: 100%; background: var(--primary); border-radius: 4px;" [style.width]="s.level + '%'"></div>
+        </div>
+
+        <div class="admin-card-actions">
+            <button class="btn-secondary" (click)="edit(s)">Edit</button>
+            <button class="btn-danger" (click)="delete(s.id)">Delete</button>
+        </div>
+    </div>
+</div>

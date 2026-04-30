@@ -1,0 +1,371 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CV\\PortfolioAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\domain\\entities\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\domain\\entities\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\domain\\entities\\aboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\domain\\entities\\aboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\domain\\entities\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\domain\\entities\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\application\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\application\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\application\\services\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\application\\services\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|d:\\cv\\portfolioapi\\portfolioapi\\migrations\\20260428160247_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29581F3B-05FC-6C51-0613-A32B11858A58}|PortfolioAPI\\PortfolioAPI.csproj|solutionrelative:portfolioapi\\migrations\\20260428160247_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminUser.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\AdminUser.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Domain\\Entities\\AdminUser.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\AdminUser.cs",
+              "RelativeToolTip": "PortfolioAPI\\Domain\\Entities\\AdminUser.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:18:15.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Application\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "PortfolioAPI\\Application\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T14:38:19.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PortfolioAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T14:38:50.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Program.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Program.cs",
+              "RelativeToolTip": "PortfolioAPI\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:36:52.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Experience.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\Experience.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Domain\\Entities\\Experience.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\Experience.cs",
+              "RelativeToolTip": "PortfolioAPI\\Domain\\Entities\\Experience.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:19:45.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\Skill.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Domain\\Entities\\Skill.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\Skill.cs",
+              "RelativeToolTip": "PortfolioAPI\\Domain\\Entities\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:19:13.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Domain\\Entities\\Project.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "PortfolioAPI\\Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:18:45.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "PortfolioAPI\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:36:09.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExperienceService.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\ExperienceService.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Application\\Services\\ExperienceService.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\ExperienceService.cs",
+              "RelativeToolTip": "PortfolioAPI\\Application\\Services\\ExperienceService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:38:51.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AboutMe.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\AboutMe.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Domain\\Entities\\AboutMe.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Domain\\Entities\\AboutMe.cs",
+              "RelativeToolTip": "PortfolioAPI\\Domain\\Entities\\AboutMe.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:50:28.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SkillsController.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\SkillsController.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Controllers\\SkillsController.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\SkillsController.cs",
+              "RelativeToolTip": "PortfolioAPI\\Controllers\\SkillsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:39:40.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExperienceController.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\ExperienceController.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Controllers\\ExperienceController.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\ExperienceController.cs",
+              "RelativeToolTip": "PortfolioAPI\\Controllers\\ExperienceController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:40:23.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260428160247_InitialCreate.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Migrations\\20260428160247_InitialCreate.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Migrations\\20260428160247_InitialCreate.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Migrations\\20260428160247_InitialCreate.cs",
+              "RelativeToolTip": "PortfolioAPI\\Migrations\\20260428160247_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:02:47.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Application\\Services\\ProjectService.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\ProjectService.cs",
+              "RelativeToolTip": "PortfolioAPI\\Application\\Services\\ProjectService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwEAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:45:18.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Controllers\\ProjectsController.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "PortfolioAPI\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:45:56.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "PortfolioAPI\\Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA6wBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:46:51.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SkillService.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\SkillService.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Application\\Services\\SkillService.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Services\\SkillService.cs",
+              "RelativeToolTip": "PortfolioAPI\\Application\\Services\\SkillService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:38:00.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Application\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "PortfolioAPI\\Application\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:35:10.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "PortfolioAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:32:46.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\DTOs\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "PortfolioAPI\\Application\\DTOs\\ProjectDto.cs",
+              "ToolTip": "D:\\CV\\PortfolioAPI\\PortfolioAPI\\Application\\DTOs\\ProjectDto.cs",
+              "RelativeToolTip": "PortfolioAPI\\Application\\DTOs\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:21:17.404Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 775,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

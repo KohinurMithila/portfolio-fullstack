@@ -1,0 +1,61 @@
+<h2 class="admin-title">Manage Projects</h2>
+
+<form class="admin-form" (ngSubmit)="submit()">
+    <div>
+        <label>Project Title</label>
+        <input [(ngModel)]="form.title" name="title" placeholder="Project Title" required>
+    </div>
+
+    <div>
+        <label>Description</label>
+        <textarea [(ngModel)]="form.description" name="description" placeholder="A brief description of the project" rows="3"></textarea>
+    </div>
+
+    <div>
+        <label>Tech Stack</label>
+        <input [(ngModel)]="form.techStack" name="techStack" placeholder="E.g. Angular, ASP.NET Core, SQL Server" required>
+    </div>
+
+    <div>
+        <label>Project Thumbnail (Upload)</label>
+        <input type="file" (change)="upload($event)" style="padding: 9px 12px; cursor: pointer;">
+    </div>
+    
+    <div>
+        <label>Image URL (Or link directly)</label>
+        <input [(ngModel)]="form.imageUrl" name="imageUrl" placeholder="https://example.com/project-image.png">
+    </div>
+
+    <div style="display: flex; gap: 16px;">
+        <div style="flex: 1;">
+            <label>Live URL</label>
+            <input [(ngModel)]="form.liveLink" name="liveLink" placeholder="https://my-live-project.com">
+        </div>
+        <div style="flex: 1;">
+            <label>GitHub URL</label>
+            <input [(ngModel)]="form.githubLink" name="githubLink" placeholder="https://github.com/my-repo">
+        </div>
+    </div>
+
+    <button class="btn-primary" type="submit" style="align-self: flex-start; margin-top: 8px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+        Save Project
+    </button>
+</form>
+
+<div class="admin-list mt-4">
+    <div class="admin-card" *ngFor="let p of projects">
+        <div *ngIf="p.imageUrl" style="height: 140px; border-radius: 8px; overflow: hidden; margin-bottom: 16px;">
+            <img [src]="p.imageUrl" alt="Project image" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <h3>{{p.title}}</h3>
+        <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;">
+            {{p.description}}
+        </p>
+        
+        <div class="admin-card-actions">
+            <button class="btn-secondary" (click)="edit(p)">Edit</button>
+            <button class="btn-danger" (click)="delete(p.id)">Delete</button>
+        </div>
+    </div>
+</div>

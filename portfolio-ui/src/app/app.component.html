@@ -1,0 +1,20 @@
+<nav class="navbar"
+  style="display: flex; justify-content: space-between; align-items: center; padding: 16px 32px; background: rgb(72, 15, 184); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+  <div style="display: flex; gap: 24px; align-items: center;">
+    <a href="/#home"
+      style="text-decoration: none; color: var(--text-main); font-weight: 600; font-size: 16px; transition: color 0.3s;">Home</a>
+    <a href="/#projects"
+      style="text-decoration: none; color: var(--text-main); font-weight: 600; font-size: 16px; transition: color 0.3s;">Projects</a>
+    <a href="/#skills"
+      style="text-decoration: none; color: var(--text-main); font-weight: 600; font-size: 16px; transition: color 0.3s;">Skills</a>
+    <a href="/#contact"
+      style="text-decoration: none; color: var(--text-main); font-weight: 600; font-size: 16px; transition: color 0.3s;">Contact</a>
+  </div>
+
+  <button (click)="toggleTheme()"
+    style="background: var(--bg-card); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 8px 16px; cursor: pointer; color: var(--text-main); display: flex; align-items: center; gap: 8px; font-weight: 500; transition: all 0.3s;">
+    {{ isDarkMode ? '☀️ Light' : '🌙 Dark' }}
+  </button>
+</nav>
+
+<router-outlet></router-outlet>
